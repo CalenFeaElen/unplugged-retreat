@@ -540,7 +540,7 @@ h3 {
   }
 
   header nav ul {
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   header nav li {
@@ -604,6 +604,7 @@ h3 {
     width: 85%;
   }
 
+  .reviews article figure, 
   .reviews article div {
     width: 49%;
   }
@@ -700,6 +701,9 @@ h3 {
   header {
     padding: 15px 0;
   }
+  .hero-area {
+    min-height: 775px;
+  }
 
   .content-wrapper {
     max-width: 960px;
@@ -721,7 +725,7 @@ h3 {
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
 }
 
   /* Aside */
