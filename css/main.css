@@ -149,6 +149,14 @@ address {
   margin: 50px 0;
 }
 
+img { 
+  width: 100%;
+}
+ 
+figure {
+        margin: 0;
+}
+
 /* -------------------- Base Header - Footer Styles -------------------- */
 
 header,
@@ -242,6 +250,11 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
 }
 
 .hero-area h1 {
@@ -293,6 +306,10 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px; 
 }
 
 .features h2 {
@@ -323,6 +340,10 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.reviews article figure, .reviews article div {
+  width: 49%;
 }
 
 .reviews h2 {
@@ -519,13 +540,21 @@ h3 {
   }
 
   header nav ul {
-    justify-content: space-between;
+    justify-content: space-around;
+  }
+
+  header nav li {
+    padding-right: 40px;
   }
 
   .header-divider {
     display: none;
   }
   /* Hero Area */
+
+  .hero-area {
+    min-height: 600px;
+  }
 
   .hero-area h1 {
     font-size: 3em;
