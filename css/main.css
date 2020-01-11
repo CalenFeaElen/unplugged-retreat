@@ -252,6 +252,14 @@ footer .copyright {
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
+/*Header - Footer*/
+
+header ul li {
+  padding-right: 50px;
+  padding-left: 10px;
+}
+
+
 /* Hero Area */
 
 .hero-area {
@@ -421,7 +429,7 @@ input[type=button] {
 }
 
 .faq .content-wrapper {
-  margin: 50px 0 0 0;
+  margin: 50px 0 25px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -434,16 +442,14 @@ input[type=button] {
 }
 
 .faq-content {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .faq-content h4 {
   line-height: 1.333;
 }
 
-.features i {
-
-}
+.faq 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -573,10 +579,16 @@ h3 {
 
   header nav ul {
     justify-content: space-between;
+    padding-right: 60px;
+    margin-right: 60px;
   }
 
-  header nav li {
-    padding-right: 40px;
+  footer .social-icons p {
+    margin-left: 20px;
+  }
+
+  footer .social {
+    padding-top: 10px;
   }
 
   .header-divider {
@@ -758,6 +770,14 @@ h3 {
       font-size: 1.125em;
       line-height: 1.333;
   }
+
+  footer .social-icons p {
+    margin-right: 40px;
+  }
+
+  footer .social {
+    padding-bottom: 10px;
+  }
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
@@ -833,6 +853,7 @@ h3 {
       font-size: 1.125em;
       line-height: 1;
   }
+
 }
 /* ==========================================================================
    Print styles.
